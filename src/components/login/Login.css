@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+
+}
+
+.appheader {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+  background-image: linear-gradient(0.25turn, aquamarine, rgb(10, 114, 155));
+  padding: 10px;
+  box-shadow: 2px 2px 6px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.signup {
+  display: flex;
+  flex-direction: column;
+}
+
+Button {
+  padding-left: 10px;
+}
+
+.swap {
+  text-align: center;
+}

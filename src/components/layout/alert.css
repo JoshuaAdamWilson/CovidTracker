@@ -1,0 +1,77 @@
+.alert {
+  position: absolute;
+  padding: 5px;
+  margin-top: 1px;
+  opacity: 0.9;
+  background-color: red;
+  color: white;
+  font-weight: bold;
+  font-size: 24px;
+  -webkit-animation-duration: 10s; 
+    animation-duration: 3s;
+  -webkit-animation-fill-mode: both;
+    animation-fill-mode: both;
+  -webkit-animation-name: fadeOut;
+    animation-name: fadeOut;
+  }
+  
+  @-webkit-keyframes fadeOut {
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+  
+  @keyframes fadeOut {
+    0% {opacity: 1;}
+    50% {opacity: 1;}
+    100% {opacity: 0;}
+  }
+
+.btn-primary,
+.bg-primary,
+.badge-primary,
+.alert-primary {
+  background-color: red;
+  color: white;
+}
+
+.btn-light,
+.bg-light,
+.badge-light,
+.alert-light {
+  background-color: red;
+  color: white;
+}
+
+.btn-dark,
+.bg-dark,
+.badge-dark,
+.alert-dark {
+  background-color: red;
+  color: white;
+}
+
+.btn-danger,
+.bg-danger,
+.badge-danger,
+.alert-danger {
+  background-color: red;
+  color: white;
+}
+
+.btn-success,
+.bg-success,
+.badge-success,
+.alert-success {
+  background-color: red;
+  color: white;
+}
+
+.btn-white,
+.bg-white,
+.badge-white,
+.alert-white {
+  background-color: red;
+  color: white;
+  border: rgb(2, 1, 1) solid 1px;
+}

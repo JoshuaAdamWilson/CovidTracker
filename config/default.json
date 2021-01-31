@@ -1,0 +1,4 @@
+{
+  "mongoURI": "mongodb+srv://Max:Sealteam7@cluster0.sywur.mongodb.net/kapstone",
+  "jwtToken": "mysecrettoken"
+}

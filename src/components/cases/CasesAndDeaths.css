@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,700&display=swap');
+
+.midheader {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url('https://www.hellodoctor.co.za/wp-content/uploads/2019/06/virus.png');
+  background-size: 70%;
+  background-position-y: 90%;
+  box-shadow: 1px 1px 10px;
+}
+
+figure {
+  margin: 10px;
+}
+
+img {
+  width: 270px;
+  height: 200px;
+}
+
+figcaption {
+  font-family: 'Montserrat', sans-serif;
+  margin-left: 130px;
+  padding: 10px;
+}

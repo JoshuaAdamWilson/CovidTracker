@@ -1,0 +1,39 @@
+.links {
+    margin: 10px;
+    padding-left: 30px;
+    display: flex;
+    justify-content: flex-start;
+    list-style-type: none;
+    font-size: 20px;
+}
+
+li a{
+    padding: 5px;
+    border-left: 1px solid gray;
+    margin: 0 5px 0 5px;
+    text-decoration: none;
+}
+
+li a:hover{
+   background-color:rgba(98, 240, 98, 0.514);
+}
+
+li a:visited {
+    color: blue;
+}
+
+.icon{
+    margin-bottom: -5px;
+}
+
+.main {
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;
+}
+
+.specificdate {
+    display: flex;
+    flex-flow: row; 
+    justify-content: space-between;
+}
